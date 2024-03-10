@@ -8,6 +8,7 @@
 }
 
 .menu__header h1 {
+    font-size: large;
     color: blanchedalmond;
     text-shadow: 2px 2px burlywood;
 }
@@ -61,4 +62,12 @@
 .active-navbar-item {
     color: #eee;
     background-color: rgb(216, 145, 52);
+}
+
+@media (max-width: 650px) {
+    .menu__navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
 }

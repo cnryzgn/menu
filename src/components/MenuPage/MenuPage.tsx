@@ -33,7 +33,7 @@ export default function MenuPage() {
     return (
         <div className="menu__container">
             <div className="menu__header">
-                <h1 id="menu__title">Our Products <span>Category: { category }</span></h1>
+                <h1 id="menu__title">Our Products</h1>
 
                 <ul className="menu__navbar">
                     <li><a href="?category=All">All</a></li>
