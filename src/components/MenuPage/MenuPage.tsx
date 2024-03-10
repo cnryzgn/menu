@@ -30,7 +30,6 @@ export default function MenuPage() {
     }, [searchParams])
 
 
-    console.log(products)
     return (
         <div className="menu__container">
             <div className="menu__header">
