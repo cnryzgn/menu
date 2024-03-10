@@ -1,0 +1,6 @@
+@import url('./MenuHeader.css');
+@import url('./MenuProducts.css');
+
+.menu__container {
+    width: 100%;
+}
